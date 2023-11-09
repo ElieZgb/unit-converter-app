@@ -1,5 +1,11 @@
-import { StatusBar } from "expo-status-bar";
-import { StyleSheet, Text, View } from "react-native";
+import { StyleSheet, View, Image, StatusBar, Dimensions } from "react-native";
+import { createNativeStackNavigator } from "@react-navigation/native-stack";
+import { NavigationContainer, DefaultTheme } from "@react-navigation/native";
+import Background from "./assets/background.png";
+import Ellipse_1 from "./assets/ellipse-1.png";
+import Ellipse_2 from "./assets/ellipse-2.png";
+import Home from "./screens/Home";
+import Converter from "./screens/Converter";
 import store from "./redux";
 import { Provider } from "react-redux";
 
