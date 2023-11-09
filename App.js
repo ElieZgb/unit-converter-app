@@ -28,6 +28,7 @@ export default function App() {
 						screenOptions={screenOptions}
 					>
 						<Stack.Screen name="home" component={Home} />
+						<Stack.Screen name="converter" component={Converter} />
 					</Stack.Navigator>
 				</NavigationContainer>
 			</View>
