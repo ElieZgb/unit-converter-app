@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "unit-converter-app",
+    "name": "Unit Converter",
     "slug": "unit-converter-app",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -21,10 +21,22 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.eliezgheib.unitconverterapp"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "79f49318-0873-44b6-be2a-9222d5d2a2a7"
+      }
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/79f49318-0873-44b6-be2a-9222d5d2a2a7"
     }
   }
 }
