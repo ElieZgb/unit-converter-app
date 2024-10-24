@@ -22,9 +22,9 @@ console.log(finalResult); // 39.37
 <br/>
 <br/>
 
-| Length             | Power                     | Pressure               |
-| :------------------- | :------------------------ | :--------------------- |
-| m → km               | W → Exawatt               | Pa → kPa               |
+| Length               | Power                     | Pressure               | Currency |
+| :------------------- | :------------------------ | :--------------------- | -------- |
+| m → km               | W → Exawatt               | Pa → kPa               | API      |
 | m → dm               | W → Petawatt              | Pa → Bar               |
 | m → cm               | W → Terawatt              | Pa → Psi               |
 | m → mm               | W → Gigawatt              | Pa → Ksi               |
